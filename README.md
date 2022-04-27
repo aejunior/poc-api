@@ -23,7 +23,7 @@ $ source env/bin/activate
 ```
 $ pip install -r requirements.txt
 
-$ scrapy runspider main.py -o angeloni.jl 
+$ scrapy runspider scraper.py -o angeloni.jl 
 
 $ python3 app.py
 $ sudo chmod +x app.py 	# Optional
