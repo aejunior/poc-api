@@ -22,8 +22,11 @@ $ source env/bin/activate
 ## Installing dependencies & running
 ```
 $ pip install -r requirements.txt
+
+$ scrapy runspider main.py -o angeloni.jl 
+
 $ python3 app.py
-$ sudo chmod +x app.py 		# Optional
+$ sudo chmod +x app.py 	# Optional
 $ ./app.py 				# Optional
 
 ```

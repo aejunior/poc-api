@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
+from concurrent.futures import process
 from flask import Flask
 import json, aiofiles, os
-
+import subprocess, sys
 
 app = Flask(__name__)
-data = []
 
 @app.route('/', methods=['GET'])
-
 def welcome():
     return ":D"
 
@@ -27,3 +26,4 @@ async def angeloni():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=os.getenv('PORT'), debug=True)
+
