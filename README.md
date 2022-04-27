@@ -22,8 +22,8 @@ $ source env/bin/activate
 ## Installing dependencies & running
 ```
 $ pip install -r requirements.txt
-$ python3 main.py
-$ sudo chmod +x main.py 		# Optional
-$ ./main.py 					# Optional
+$ python3 app.py
+$ sudo chmod +x app.py 		# Optional
+$ ./app.py 				# Optional
 
 ```
